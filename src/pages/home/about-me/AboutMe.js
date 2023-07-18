@@ -1,8 +1,9 @@
 import React from 'react';
 
 // Components
-import HomeLocationIcon from '../../../components/icons/HomeLocationIcon';
 import CirclesAnimation from './CirclesAnimation';
+import HomeLocationIcon from '../../../components/icons/HomeLocationIcon';
+import Socials from '../../../components/socials/Socials';
 
 // Styles
 import './AboutMe.css';
@@ -26,10 +27,16 @@ const AboutMe = () => {
           </div>
           <div className="info">
             <h2>João Pimenta</h2>
-            <div>
+            <div className="info-location">
               <HomeLocationIcon />
               <span>Coimbra, Portugal</span>
             </div>
+            <div className="socials-container-mobile">
+              <Socials />
+            </div>
+          </div>
+          <div className="socials-container-desktop">
+            <Socials />
           </div>
         </div>
         <div className="description">

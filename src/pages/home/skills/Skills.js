@@ -5,7 +5,7 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div className="container-skills" id="skills">
-      Skills
+      SKILLS
     </div>
   );
 };

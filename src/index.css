@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root {
-  --color: #333;
-  --secondary-color: #f5deb3;
+  --background-color: #333;
+  --text-color: #fff;
+  --primary-color: #28505b;
+  --secondary-color: #bc6c29;
+  --accent-color: #d8e1e3;
   --header-height: 96px;
 }
 
@@ -13,18 +16,19 @@ html {
 body {
   font-family: 'Red Hat Text', sans-serif;
   margin: 0;
+  color: var(--accent-color);
 }
 
 h2 {
   font-weight: 700;
   font-size: 2rem;
-  color: wheat;
 }
 
 p {
   max-width: 52ch;
   line-height: 1.5;
   padding: 1em;
+  color: var(--text-color);
 }
 
 h3 {
@@ -42,7 +46,7 @@ ul {
 svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--secondary-color);
+  fill: var(--accent-color);
 
   @media (width > 48em) {
     width: 2rem;
@@ -53,8 +57,9 @@ svg {
 .link-as-button {
   display: inline-block;
   padding: 1em 3.5em;
-  background-color: var(--color);
-  color: white;
+  background-color: var(--secondary-color);
+  opacity: 0.9;
+  color: var(--accent-color);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0.3em;
