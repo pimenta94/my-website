@@ -1,0 +1,9 @@
+.container-skills {
+  height: 1000px;
+  background-color: var(--secondary-color);
+  scroll-margin-top: var(--header-height);
+
+  @media (width > 48em) {
+    background-color: cyan;
+  }
+}
