@@ -2,6 +2,7 @@ import React from 'react';
 
 // Components
 import HomeLocationIcon from '../../../components/icons/HomeLocationIcon';
+import CirclesAnimation from './CirclesAnimation';
 
 // Styles
 import './AboutMe.css';
@@ -17,6 +18,7 @@ const AboutMe = () => {
 
   return (
     <div className="container" id="about-me">
+      <CirclesAnimation />
       <div className="about-me">
         <div className="details">
           <div className="my-photo-container">
@@ -41,8 +43,8 @@ const AboutMe = () => {
           integrations
         </div>
       </div>
-      <div>
-        <a href="#experience" className="link-as-button more-button">
+      <div className="more-button">
+        <a href="#experience" className="link-as-button">
           More About Me
         </a>
       </div>

@@ -8,9 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/public/cbr-main.jpg);
-  background-size: cover;
-  background-position: center;
+  background: var(--secondary-color);
+  background: linear-gradient(to left, var(--secondary-color), var(--color));
 
   /*  this is where the magic happens:  */
   background-attachment: fixed;
@@ -87,5 +86,6 @@
 }
 
 .more-button {
+  z-index: 200;
   margin-top: 2rem;
 }
