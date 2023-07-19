@@ -1,0 +1,40 @@
+{
+  "workExperience": [
+    {
+      "title": "Frontend Developer",
+      "subTitle": "@ Excelsea GmbH & Co. KG",
+      "duration": "Jun 2023 - Present",
+      "imgPath": "/excelsea_logo.jpeg",
+      "description": []
+    },
+    {
+      "title": "Frontend Developer",
+      "subTitle": "@ Farfetch",
+      "duration": "Sep 2016 - May 2023 | 6 yrs 9 mos",
+      "imgPath": "/ff_logo.jpeg",
+      "description": []
+    },
+    {
+      "title": "Frontend Developer",
+      "subTitle": "@ Present Technologies",
+      "duration": "Mar 2016 - May 2023 | 7 yrs 3mos",
+      "imgPath": "/ptech_logo.jpeg",
+      "description": []
+    }
+  ],
+  "education": [
+    {
+      "title": "Instituto Superior de Engenharia de Coimbra",
+      "subTitle": "Licentiate degree, Cumputer Software Engineering",
+      "imgPath": "/isec_logo.jpeg"
+    }
+  ],
+  "volunteering": [
+    {
+      "title": "Education Volunteer",
+      "subTitle": "Companhia de Estudo",
+      "duration": "3 yrs",
+      "imgPath": "/ce_logo.jpeg"
+    }
+  ]
+}

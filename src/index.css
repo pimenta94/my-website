@@ -32,6 +32,12 @@ h3 {
   font-size: 1rem;
 }
 
+h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
 p {
   max-width: 52ch;
   line-height: 1.5;
@@ -81,5 +87,9 @@ svg {
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
   }
 }

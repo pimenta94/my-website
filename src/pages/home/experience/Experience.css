@@ -13,15 +13,24 @@
   scroll-margin-top: var(--header-height);
 }
 
-.experience-list {
-  text-align: center;
-  margin: 2rem;
-}
-
-.experience-item {
+.experience-section {
+  width: 80vw;
+  margin: 1rem 0;
   display: flex;
-  width: 100%;
-  min-height: 4rem;
-  align-items: center;
-  text-align: center;
+  color: var(--secondary-color);
+
+  text-align: start;
+
+  & h2 {
+    margin-right: 1rem;
+  }
+
+  & svg {
+    padding-top: 4px;
+    fill: var(--secondary-color);
+  }
+
+  @media (width > 48em) {
+    width: 60vw;
+  }
 }
