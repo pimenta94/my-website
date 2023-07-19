@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
+  z-index: 50;
 
   & ul {
     display: flex;

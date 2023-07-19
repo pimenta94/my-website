@@ -1,0 +1,25 @@
+.panel {
+  width: 80vw;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  border-radius: 0.3em;
+  background-color: var(--background-color);
+  z-index: 10;
+
+  @media (width > 48em) {
+    width: 60vw;
+  }
+}
+
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in;
+}
+
+.show-more {
+  max-height: 1000px;
+}

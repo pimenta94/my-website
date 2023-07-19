@@ -15,13 +15,21 @@ html {
 
 body {
   font-family: 'Red Hat Text', sans-serif;
+  font-size: 0.9rem;
   margin: 0;
   color: var(--accent-color);
 }
 
 h2 {
+  margin: 0;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 p {
@@ -29,12 +37,6 @@ p {
   line-height: 1.5;
   padding: 1em;
   color: var(--text-color);
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 1.6rem;
-  margin-top: 1em;
 }
 
 ul {
@@ -66,4 +68,18 @@ svg {
   font-weight: 700;
   letter-spacing: 0.5px;
   font-size: 0.875rem;
+}
+
+@media (width > 48em) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
 }

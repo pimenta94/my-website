@@ -20,7 +20,7 @@ const AboutMe = () => {
   return (
     <div className="container" id="about-me">
       <CirclesAnimation />
-      <div className="about-me">
+      <div className="about-me scale-in-center">
         <div className="details">
           <div className="my-photo-container">
             <img alt="portrait" src="/me.jpeg" />
