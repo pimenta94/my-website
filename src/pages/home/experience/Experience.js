@@ -33,6 +33,7 @@ const Experience = () => {
       {cv.volunteering.map((item) => (
         <ExperiencePanel key={item.subTitle} data={item} />
       ))}
+      <div className="divider" />
     </div>
   );
 };

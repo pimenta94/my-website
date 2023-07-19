@@ -3,7 +3,7 @@ import React from 'react';
 const Coimbra = () => {
   return (
     <>
-      <h2>Coimbra Page!</h2>
+      <h2>Coimbra Is The Best!</h2>
       <div>LAYOUT</div>
     </>
   );

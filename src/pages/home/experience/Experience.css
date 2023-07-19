@@ -34,3 +34,10 @@
     width: 60vw;
   }
 }
+
+.divider {
+  width: 100%;
+  height: 0.1rem;
+  margin: 4rem 0;
+  background-color: var(--background-color);
+}
