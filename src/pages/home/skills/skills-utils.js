@@ -31,7 +31,7 @@ export const LANGUAGES = [
     percentage: 95,
   },
   {
-    name: 'Scss',
+    name: 'SCSS',
     component: <SassIcon />,
     percentage: 80,
   },
@@ -41,7 +41,7 @@ export const LANGUAGES = [
     percentage: 90,
   },
   {
-    name: 'Css',
+    name: 'CSS',
     component: <CssIcon />,
     percentage: 90,
   },
@@ -79,7 +79,7 @@ export const FRAMEWORKS = [
     percentage: 80,
   },
   {
-    name: 'Bootsrap',
+    name: 'Bootstrap',
     component: <BootstrapIcon />,
     percentage: 75,
   },

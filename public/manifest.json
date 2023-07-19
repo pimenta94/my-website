@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Joao Pimenta",
+  "name": "Joao Pimenta",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#08F",
-  "background_color": "#214"
+  "theme_color": "#28505b",
+  "background_color": "#d8e1e3"
 }
