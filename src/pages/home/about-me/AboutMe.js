@@ -18,7 +18,7 @@ const AboutMe = () => {
   }
 
   return (
-    <div className="container" id="about-me">
+    <section className="section-about-me" id="about-me">
       <CirclesAnimation />
       <div className="about-me scale-in-center">
         <div className="details">
@@ -55,7 +55,7 @@ const AboutMe = () => {
           More About Me
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

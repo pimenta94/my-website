@@ -5,7 +5,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <div className="container-skills" id="skills">
+    <section className="section-skills" id="skills">
       <div className="skills-table">
         <h2>Languages</h2>
         <ul className="skills-list">
@@ -54,7 +54,7 @@ const Skills = () => {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

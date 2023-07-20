@@ -11,22 +11,22 @@ import './Experience.css';
 
 const Experience = () => {
   return (
-    <div className="experience" id="experience">
-      <div className="experience-section">
+    <section className="section-experience" id="experience">
+      <div className="experience-group">
         <h2>WORK EXPERIENCE</h2>
         <WorkIcon />
       </div>
       {cv.workExperience.map((item) => (
         <ExperiencePanel key={item.subTitle} data={item} />
       ))}
-      <div className="experience-section">
+      <div className="experience-group">
         <h2>EDUCATION</h2>
         <EducationIcon />
       </div>
       {cv.education.map((item) => (
         <ExperiencePanel key={item.subTitle} data={item} />
       ))}
-      <div className="experience-section">
+      <div className="experience-group">
         <h2>VOLUNTEERING</h2>
         <VolunteerIcon />
       </div>
@@ -34,7 +34,7 @@ const Experience = () => {
         <ExperiencePanel key={item.subTitle} data={item} />
       ))}
       <div className="divider" />
-    </div>
+    </section>
   );
 };
 

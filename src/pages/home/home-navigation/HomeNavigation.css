@@ -18,10 +18,6 @@
   color: var(--text-color);
 }
 
-.active {
-  text-decoration: underline;
-}
-
 .header-link {
   color: inherit;
   text-decoration: none;
@@ -31,7 +27,7 @@
   font-size: 0.875rem;
 }
 
-.selected {
+.active {
   padding-bottom: 3px;
   border-bottom: 2px solid var(--secondary-color);
 }
