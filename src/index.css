@@ -54,7 +54,7 @@ ul {
 svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--accent-color);
+  fill: var(--secondary-color);
 }
 
 .link-as-button {

@@ -12,7 +12,11 @@ const Socials = () => {
   return (
     <ul className="socials-list">
       <li className="social-item">
-        <Link to={{ pathname: 'https://github.com/pimenta94' }} target="_blank">
+        <Link
+          to={{ pathname: 'https://github.com/pimenta94' }}
+          target="_blank"
+          className="social-item-link"
+        >
           <GitHubIcon />
         </Link>
       </li>
@@ -20,6 +24,7 @@ const Socials = () => {
         <Link
           to={{ pathname: 'https://www.linkedin.com/in/jpimenta21/' }}
           target="_blank"
+          className="social-item-link"
         >
           <LinkedinIcon />
         </Link>
@@ -28,12 +33,17 @@ const Socials = () => {
         <Link
           to={{ pathname: 'https://www.instagram.com/jpimenta94/' }}
           target="_blank"
+          className="social-item-link"
         >
           <InstagramIcon />
         </Link>
       </li>
       <li className="social-item">
-        <Link to={{ pathname: 'mailto:jpimenta.94@gmail.com' }} target="_blank">
+        <Link
+          to={{ pathname: 'mailto:jpimenta.94@gmail.com' }}
+          target="_blank"
+          className="social-item-link"
+        >
           <EmailIcon />
         </Link>
       </li>

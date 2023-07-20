@@ -7,10 +7,10 @@
   align-items: center;
   background-color: var(--background-color);
   z-index: 50;
+}
 
-  & ul {
-    display: flex;
-  }
+.nav-header > ul {
+  display: flex;
 }
 
 .header-item {
