@@ -29,10 +29,6 @@
     padding-top: 4px;
     fill: var(--secondary-color);
   }
-
-  @media (width > 48em) {
-    width: 60vw;
-  }
 }
 
 .divider {
@@ -40,4 +36,12 @@
   height: 0.1rem;
   margin: 4rem 0;
   background-color: var(--background-color);
+}
+
+/* DESKTOP */
+
+@media (width > 48em) {
+  .experience-section {
+    width: 60vw;
+  }
 }

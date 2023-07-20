@@ -24,10 +24,6 @@
   border-radius: 0.3em;
   background-color: var(--background-color);
   z-index: 10;
-
-  @media (width > 48em) {
-    width: 60vw;
-  }
 }
 
 .skills-list {
@@ -92,4 +88,12 @@
 }
 .skill-percentage-60 {
   width: 60%;
+}
+
+/* DESKTOP */
+
+@media (width > 48em) {
+  .skills-table {
+    width: 60vw;
+  }
 }

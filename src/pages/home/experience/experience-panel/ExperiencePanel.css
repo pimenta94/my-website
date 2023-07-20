@@ -9,10 +9,6 @@
   background-color: var(--background-color);
   z-index: 10;
   cursor: pointer;
-
-  @media (width > 48em) {
-    width: 60vw;
-  }
 }
 
 .experience-info {
@@ -27,14 +23,6 @@
 
   & img {
     width: 3rem;
-  }
-
-  @media (width > 48em) {
-    height: 100%;
-
-    & img {
-      width: 5rem;
-    }
   }
 }
 
@@ -74,4 +62,20 @@
 
 .show-more {
   max-height: 1000px;
+}
+
+/* DESKTOP */
+
+@media (width > 48em) {
+  .panel {
+    width: 60vw;
+  }
+
+  .experience-img {
+    height: 100%;
+
+    & img {
+      width: 5rem;
+    }
+  }
 }
