@@ -1,17 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import { throttle } from 'lodash';
 
 import './HomeNavigation.css';
 
 const Header = () => {
-  const location = useLocation();
-  const [selectedItem, setSelectedItem] = useState(location.hash);
-
-  useEffect(() => {
-    setSelectedItem(location.hash);
-  }, [location]);
-
   useEffect(() => {
     window.addEventListener(
       'scroll',
@@ -41,32 +33,17 @@ const Header = () => {
   return (
     <nav className="nav-header">
       <ul id="header-list">
-        <li
-          id="nav-item-about-me"
-          className={`header-item ${
-            selectedItem === '#about-me' ? 'active' : ''
-          }`}
-        >
+        <li id="nav-item-about-me" className="header-item">
           <a href="#about-me" className="header-link">
             About Me
           </a>
         </li>
-        <li
-          id="nav-item-experience"
-          className={`header-item ${
-            selectedItem === '#experience' ? 'active' : ''
-          }`}
-        >
+        <li id="nav-item-experience" className="header-item">
           <a href="#experience" className="header-link">
             Experience
           </a>
         </li>
-        <li
-          id="nav-item-skills"
-          className={`header-item ${
-            selectedItem === '#skills' ? 'active' : ''
-          }`}
-        >
+        <li id="nav-item-skills" className="header-item">
           <a href="#skills" className="header-link">
             Skills
           </a>
