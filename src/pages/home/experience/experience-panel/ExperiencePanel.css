@@ -8,6 +8,7 @@
   border-radius: 0.3em;
   background-color: var(--background-color);
   z-index: 10;
+  cursor: pointer;
 
   @media (width > 48em) {
     width: 60vw;
@@ -59,7 +60,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
 
   & svg {
     fill: var(--secondary-color);

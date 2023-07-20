@@ -10,11 +10,15 @@ const ExperiencePanel = ({ data }) => {
   const { title, subTitle, duration, imgPath, description } = data;
 
   const handleClick = () => {
+    if (!description) {
+      return;
+    }
+
     setPanelOpen(!isOpen);
   };
 
   return (
-    <div className="panel">
+    <div className="panel" onClick={handleClick}>
       <div className="experience-info">
         <div className="experience-img">
           <img alt={subTitle} src={imgPath} />
@@ -25,7 +29,7 @@ const ExperiencePanel = ({ data }) => {
           <h4>{duration}</h4>
         </div>
         {description && (
-          <div className="accordion-button" onClick={handleClick}>
+          <div className="accordion-button">
             {isOpen ? <ChevronUpIcon /> : <ChevronDownIcon />}
           </div>
         )}
