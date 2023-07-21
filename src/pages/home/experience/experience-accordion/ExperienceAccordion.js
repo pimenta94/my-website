@@ -21,7 +21,9 @@ const ExperienceAccordion = ({ data }) => {
     <div className="experience-accordion" onClick={handleClick}>
       <div className="experience-info">
         <div className="experience-img">
-          <img alt={subTitle} src={imgPath} />
+          <div>
+            <img alt={subTitle} src={imgPath} />
+          </div>
         </div>
         <div className="experience-header">
           <h3>{title}</h3>

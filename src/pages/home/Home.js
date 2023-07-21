@@ -5,6 +5,7 @@ import AboutMe from './about-me/AboutMe';
 import Header from './home-navigation/HomeNavigation';
 import Experience from './experience/Experience';
 import Skills from './skills/Skills';
+import MyWork from './my-work/MyWork';
 
 import './Home.css';
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Header />
       <Experience />
       <Skills />
+      <MyWork />
     </main>
   );
 };

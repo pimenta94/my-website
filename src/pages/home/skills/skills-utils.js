@@ -19,7 +19,7 @@ import JenkinsIcon from '../../../components/icons/JenkinsIcon';
 import RemixIcon from '../../../components/icons/RemixIcon';
 import BootstrapIcon from '../../../components/icons/BootstrapIcon';
 
-export const LANGUAGES = [
+const LANGUAGES = [
   {
     name: 'JavaScript',
     component: <JavaScriptIcon />,
@@ -62,7 +62,7 @@ export const LANGUAGES = [
   },
 ];
 
-export const FRAMEWORKS = [
+const FRAMEWORKS = [
   {
     name: 'React',
     component: <ReactIcon />,
@@ -95,7 +95,7 @@ export const FRAMEWORKS = [
   },
 ];
 
-export const OTHER = [
+const OTHER = [
   {
     name: 'Git',
     component: <GitIcon />,
@@ -125,5 +125,20 @@ export const OTHER = [
     name: 'GitHub Actions',
     component: <GitHubIcon />,
     percentage: 75,
+  },
+];
+
+export const SKILLS_GROUPS = [
+  {
+    name: 'Languages',
+    list: LANGUAGES,
+  },
+  {
+    name: 'Frameworks',
+    list: FRAMEWORKS,
+  },
+  {
+    name: 'Other',
+    list: OTHER,
   },
 ];

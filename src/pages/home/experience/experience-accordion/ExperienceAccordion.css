@@ -18,12 +18,15 @@
 .experience-img {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 3.5rem;
 }
 
-.experience-img > img {
+.experience-img > div {
+  display: flex;
+}
+
+.experience-img img {
   width: 3rem;
+  border-radius: 0.3rem;
 }
 
 .experience-header {
@@ -67,11 +70,7 @@
     width: 60vw;
   }
 
-  .experience-img {
-    height: 100%;
-  }
-
-  .experience-img > img {
-    width: 5rem;
+  .experience-img img {
+    width: 4rem;
   }
 }

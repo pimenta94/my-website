@@ -3,6 +3,25 @@ import { throttle } from 'lodash';
 
 import './HomeNavigation.css';
 
+const NAVIGATION_ITEMS = [
+  {
+    name: 'About Me',
+    id: 'about-me',
+  },
+  {
+    name: 'Experience',
+    id: 'experience',
+  },
+  {
+    name: 'Skills',
+    id: 'skills',
+  },
+  {
+    name: 'My Work',
+    id: 'my-work',
+  },
+];
+
 const Header = () => {
   useEffect(() => {
     window.addEventListener(
@@ -33,21 +52,13 @@ const Header = () => {
   return (
     <nav className="nav-header">
       <ul id="header-list">
-        <li id="nav-item-about-me" className="header-item">
-          <a href="#about-me" className="header-link">
-            About Me
-          </a>
-        </li>
-        <li id="nav-item-experience" className="header-item">
-          <a href="#experience" className="header-link">
-            Experience
-          </a>
-        </li>
-        <li id="nav-item-skills" className="header-item">
-          <a href="#skills" className="header-link">
-            Skills
-          </a>
-        </li>
+        {NAVIGATION_ITEMS.map((navItem) => (
+          <li id={`nav-item-${navItem.id}`} className="header-item">
+            <a href={`#${navItem.id}`} className="header-link">
+              {navItem.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
