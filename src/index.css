@@ -2,10 +2,15 @@
 
 :root {
   --background-color: #333;
+  --dark-color2: #777;
   --text-color: #fff;
   --primary-color: #28505b;
   --secondary-color: #bc6c29;
   --accent-color: #d8e1e3;
+
+  --background-color-dark: rgb(4, 4, 4, 0.3);
+  --background-color-dark2: rgb(4, 4, 4, 0.2);
+  --background-color-blue: rgb(40, 80, 91, 0.3);
   --header-height: 96px;
 }
 
@@ -54,7 +59,7 @@ ul {
 svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--secondary-color);
+  fill: var(--accent-color);
 }
 
 .link-as-button {

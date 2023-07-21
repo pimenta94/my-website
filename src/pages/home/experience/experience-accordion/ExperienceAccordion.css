@@ -6,7 +6,7 @@
   flex-direction: column;
   text-align: justify;
   border-radius: 0.3em;
-  background-color: var(--background-color);
+  background: var(--background-color-dark2);
   z-index: 10;
   cursor: pointer;
 }
