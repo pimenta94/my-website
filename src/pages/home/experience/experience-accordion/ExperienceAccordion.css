@@ -1,4 +1,4 @@
-.panel {
+.experience-accordion {
   width: 80vw;
   margin-bottom: 1rem;
   padding: 1.5rem;
@@ -63,7 +63,7 @@
 /* DESKTOP */
 
 @media (width > 48em) {
-  .panel {
+  .experience-accordion {
     width: 60vw;
   }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import cv from './cv.json';
 
 // Components
-import ExperiencePanel from './experience-panel/ExperiencePanel';
+import ExperienceAccordion from './experience-accordion/ExperienceAccordion';
 import WorkIcon from '../../../components/icons/WorkIcon';
 import EducationIcon from '../../../components/icons/EducationIcon';
 import VolunteerIcon from '../../../components/icons/VolunteerIcon';
@@ -17,21 +17,21 @@ const Experience = () => {
         <WorkIcon />
       </div>
       {cv.workExperience.map((item) => (
-        <ExperiencePanel key={item.subTitle} data={item} />
+        <ExperienceAccordion key={item.subTitle} data={item} />
       ))}
       <div className="experience-group">
         <h2>EDUCATION</h2>
         <EducationIcon />
       </div>
       {cv.education.map((item) => (
-        <ExperiencePanel key={item.subTitle} data={item} />
+        <ExperienceAccordion key={item.subTitle} data={item} />
       ))}
       <div className="experience-group">
         <h2>VOLUNTEERING</h2>
         <VolunteerIcon />
       </div>
       {cv.volunteering.map((item) => (
-        <ExperiencePanel key={item.subTitle} data={item} />
+        <ExperienceAccordion key={item.subTitle} data={item} />
       ))}
       <div className="divider" />
     </section>

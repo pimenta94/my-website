@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import ChevronDownIcon from '../../../../components/icons/ChevronDownIcon';
 import ChevronUpIcon from '../../../../components/icons/ChevronUpIcon';
 
-import './ExperiencePanel.css';
+import './ExperienceAccordion.css';
 
-const ExperiencePanel = ({ data }) => {
+const ExperienceAccordion = ({ data }) => {
   const [isOpen, setPanelOpen] = useState(false);
   const { title, subTitle, duration, imgPath, description } = data;
 
@@ -18,7 +18,7 @@ const ExperiencePanel = ({ data }) => {
   };
 
   return (
-    <div className="panel" onClick={handleClick}>
+    <div className="experience-accordion" onClick={handleClick}>
       <div className="experience-info">
         <div className="experience-img">
           <img alt={subTitle} src={imgPath} />
@@ -56,4 +56,4 @@ const ExperiencePanel = ({ data }) => {
   );
 };
 
-export default ExperiencePanel;
+export default ExperienceAccordion;
