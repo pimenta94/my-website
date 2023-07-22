@@ -5,8 +5,8 @@
 }
 
 .icon-scroll {
-  width: 40px;
-  height: 70px;
+  width: 20px;
+  height: 35px;
   margin-left: -20px;
   top: 50%;
   margin-top: -35px;
@@ -16,10 +16,10 @@
 
 .icon-scroll:before {
   content: '';
-  width: 8px;
-  height: 8px;
+  width: 4px;
+  height: 5px;
   background: var(--text-color);
-  margin-left: -4px;
+  margin-left: -2px;
   top: 8px;
   border-radius: 4px;
   animation-duration: 1.5s;
@@ -33,6 +33,6 @@
   }
   100% {
     opacity: 0;
-    transform: translateY(46px);
+    transform: translateY(18px);
   }
 }
