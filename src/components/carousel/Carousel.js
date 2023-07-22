@@ -21,4 +21,10 @@ const Carousel = ({ children }) => {
   return <Slider {...settings}>{children}</Slider>;
 };
 
+const CarouselSlider = ({ children, classname }) => {
+  return <div className={classname}>{children}</div>;
+};
+
 export default Carousel;
+
+export { CarouselSlider };

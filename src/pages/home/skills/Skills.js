@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="section-skills" id="skills">
       {SKILLS_GROUPS.map((skillGroup) => (
-        <div className="skills-table">
+        <div key={`skill-group-${skillGroup.name}`} className="skills-table">
           <h2>{skillGroup.name}</h2>
           <ul className="skills-list">
             {skillGroup.list.map((skill) => (

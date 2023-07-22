@@ -15,8 +15,8 @@ const Home = () => {
       <AboutMe />
       <Header />
       <Experience />
-      <Skills />
       <MyWork />
+      <Skills />
     </main>
   );
 };

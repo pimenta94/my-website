@@ -13,16 +13,16 @@ const NAVIGATION_ITEMS = [
     id: 'experience',
   },
   {
-    name: 'Skills',
-    id: 'skills',
-  },
-  {
     name: 'My Work',
     id: 'my-work',
   },
+  {
+    name: 'Skills',
+    id: 'skills',
+  },
 ];
 
-const Header = () => {
+const HomeNavigation = () => {
   useEffect(() => {
     window.addEventListener(
       'scroll',
@@ -53,7 +53,11 @@ const Header = () => {
     <nav className="nav-header">
       <ul id="header-list">
         {NAVIGATION_ITEMS.map((navItem) => (
-          <li id={`nav-item-${navItem.id}`} className="header-item">
+          <li
+            key={`nav-item-${navItem.id}`}
+            id={`nav-item-${navItem.id}`}
+            className="header-item"
+          >
             <a href={`#${navItem.id}`} className="header-link">
               {navItem.name}
             </a>
@@ -64,4 +68,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HomeNavigation;
