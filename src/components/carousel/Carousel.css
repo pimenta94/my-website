@@ -58,7 +58,7 @@
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before {
   opacity: 0.5;
-  border: 0.1rem solid var(--accent-color);
+  border: 0.1rem solid var(--text-color);
 }
 .slick-dots li button:before {
   position: absolute;
@@ -70,7 +70,7 @@
   font-size: 2rem;
   line-height: 2rem;
   text-align: center;
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   border: 0.1rem solid var(--background-color);
   border-radius: 2rem;
   transform: translate3d(-50%, -50%, 0);
@@ -81,7 +81,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before {
-  background-color: var(--secondary-color);
-  border: 0.1rem solid var(--accent-color);
+  background-color: var(--accent-color);
+  border: 0.1rem solid var(--text-color);
   opacity: 1;
 }

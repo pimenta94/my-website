@@ -24,6 +24,11 @@ const MyWork = () => {
             <h3>3</h3>
           </div>
         </>
+        <>
+          <div className="basic-slide">
+            <h3>4</h3>
+          </div>
+        </>
       </Carousel>
     </section>
   );

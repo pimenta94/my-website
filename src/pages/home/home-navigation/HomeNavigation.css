@@ -14,7 +14,7 @@
 }
 
 .header-item {
-  margin-right: 1rem;
+  margin: 0 0.5rem;
   color: var(--text-color);
 }
 
@@ -29,5 +29,5 @@
 
 .active {
   padding-bottom: 3px;
-  border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--accent-color);
 }

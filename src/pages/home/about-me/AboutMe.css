@@ -9,8 +9,8 @@
   justify-content: center;
   background: linear-gradient(
     to left,
-    var(--primary-color),
-    var(--accent-color)
+    var(--gradient-color),
+    var(--primary-color)
   );
 }
 
@@ -79,6 +79,7 @@
 }
 
 .more-button {
+  position: relative;
   z-index: 10;
   margin-top: 2rem;
 }

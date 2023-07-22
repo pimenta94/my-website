@@ -148,8 +148,8 @@
   font-size: 2rem;
   line-height: 2rem;
   text-align: center;
-  background-color: var(--secondary-color);
-  border: 0.1rem solid var(--accent-color);
+  background-color: var(--accent-color);
+  border: 0.1rem solid var(--text-color);
   border-radius: 2rem;
   transform: translate3d(-50%, -50%, 0);
   opacity: 0.25;
@@ -159,7 +159,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before {
-  background-color: var(--secondary-color);
-  border: 0.1rem solid var(--secondary-color);
+  background-color: var(--accent-color);
+  border: 0.1rem solid var(--accent-color);
   opacity: 0.75;
 }

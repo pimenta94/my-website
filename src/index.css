@@ -2,15 +2,13 @@
 
 :root {
   --background-color: #333;
-  --dark-color2: #777;
-  --text-color: #fff;
-  --primary-color: #28505b;
-  --secondary-color: #bc6c29;
-  --accent-color: #d8e1e3;
+  --text-color: #d8e1e3;
+  --primary-color: #001b29;
+  --accent-color: #bc6c29;
+  --gradient-color: #003652;
 
-  --background-color-dark: rgb(4, 4, 4, 0.3);
-  --background-color-dark2: rgb(4, 4, 4, 0.2);
-  --background-color-blue: rgb(40, 80, 91, 0.3);
+  --background-color-dark: rgb(4, 4, 4, 0.2);
+  --animation-color: rgba(228, 224, 224, 0.4);
   --header-height: 96px;
 }
 
@@ -22,7 +20,7 @@ body {
   font-family: 'Red Hat Text', sans-serif;
   font-size: 0.9rem;
   margin: 0;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 h2 {
@@ -59,15 +57,14 @@ ul {
 svg {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--accent-color);
+  fill: var(--text-color);
 }
 
 .link-as-button {
   display: inline-block;
   padding: 1em 3.5em;
-  background-color: var(--secondary-color);
   opacity: 0.9;
-  color: var(--accent-color);
+  color: var(--text-color);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0.3em;

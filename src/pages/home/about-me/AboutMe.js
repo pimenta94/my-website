@@ -3,6 +3,7 @@ import React from 'react';
 // Components
 import CirclesAnimation from './CirclesAnimation';
 import HomeLocationIcon from '../../../components/icons/HomeLocationIcon';
+import ScrollWheelIcon from '../../../components/icons/ScrollWheelIcon';
 import Socials from '../../../components/socials/Socials';
 
 // Styles
@@ -52,7 +53,7 @@ const AboutMe = () => {
       </div>
       <div className="more-button">
         <a href="#experience" className="link-as-button">
-          More About Me
+          <ScrollWheelIcon />
         </a>
       </div>
     </section>
