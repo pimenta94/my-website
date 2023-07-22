@@ -11,11 +11,13 @@
 
 .nav-header > ul {
   display: flex;
+  overflow-y: scroll;
 }
 
 .header-item {
   margin: 0 0.5rem;
   color: var(--text-color);
+  white-space: nowrap;
 }
 
 .header-link {
