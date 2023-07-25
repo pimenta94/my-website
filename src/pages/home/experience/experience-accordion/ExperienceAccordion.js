@@ -38,20 +38,16 @@ const ExperienceAccordion = ({ data }) => {
       </div>
       {description && (
         <div className={`accordion-content ${isOpen ? 'show-more' : ''}`}>
-          <div className="experience-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            sed imperdiet arcu. Vestibulum vel elit eget arcu feugiat ornare.
-            Curabitur quis blandit orci, sed laoreet sem. Pellentesque sit amet
-            nibh turpis. Mauris nec felis nibh. Vivamus mauris arcu, blandit
-            eget tempor ultricies, ullamcorper a orci. Etiam turpis nisi,
-            fermentum vitae orci non, hendrerit blandit massa. Sed porta urna eu
-            mattis malesuada. Etiam feugiat iaculis blandit. Proin varius sit
-            amet ante ut luctus. Suspendisse hendrerit luctus vehicula. Nunc
-            rutrum augue eget pretium ultrices. Etiam vitae odio tellus. Fusce
-            facilisis metus ut velit posuere, ac consequat justo condimentum.
-            Praesent elementum posuere nunc quis auctor. Sed dapibus elit a mi
-            faucibus vulputate.
-          </div>
+          <ul className="experience-description">
+            {description.map((descriptionItem, index) => (
+              <li
+                key={`${subTitle}-description-item-${index}`}
+                className="description-item"
+              >
+                {descriptionItem}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </div>

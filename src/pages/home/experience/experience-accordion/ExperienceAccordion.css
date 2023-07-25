@@ -63,6 +63,15 @@
   max-height: 1000px;
 }
 
+.description-item {
+  margin-bottom: 0.5rem;
+}
+
+.description-item::before {
+  content: '•';
+  padding-right: 0.5rem;
+}
+
 /* DESKTOP */
 
 @media (width > 48em) {

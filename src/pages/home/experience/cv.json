@@ -5,27 +5,42 @@
       "subTitle": "@ Excelsea GmbH & Co. KG",
       "duration": "Jun 2023 - Present",
       "imgPath": "/excelsea_logo.jpeg",
-      "description": []
+      "description": [
+        "Worked with multiple APIs and third-party integrations to link digital marketing platforms with a web application solution to help small to medium business with their branding",
+        "Collaborated with stakeholders during development processes to achieve their goals within deadlines",
+        "Improved tools to boost user interaction and deliver design versatility"
+      ]
     },
     {
       "title": "Frontend Developer",
       "subTitle": "@ Farfetch",
       "duration": "Sep 2016 - May 2023 | 6 yrs 9 mos",
       "imgPath": "/ff_logo.jpeg",
-      "description": []
+      "description": [
+        "Collaborated with stakeholders from luxury clothing brands during development processes to achieve their goals and design best practices",
+        "I worked closely with the software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance",
+        "Managed full-cycle design tasks in an Agile-driven environment, handling all phases from conception to completion while maintaining the highest standards",
+        "Designed and updated layouts to meet usability and performance requirements",
+        "Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies"
+      ]
     },
     {
       "title": "Frontend Developer",
       "subTitle": "@ Present Technologies",
       "duration": "Mar 2016 - May 2023 | 7 yrs 3mos",
       "imgPath": "/ptech_logo.jpeg",
-      "description": []
+      "description": [
+        "Collaborated on an Android app to follow football live results, called LiveSoccer",
+        "Designed and updated layouts to meet usability and performance requirements",
+        "Contributed to projects within Scrum project management environments",
+        "Improved tools to boost user interaction and deliver design versatility"
+      ]
     }
   ],
   "education": [
     {
       "title": "Instituto Superior de Engenharia de Coimbra",
-      "subTitle": "Licentiate degree, Cumputer Software Engineering",
+      "subTitle": "Batchelors degree, Cumputer Software Engineering",
       "imgPath": "/isec_logo.jpeg"
     }
   ],
@@ -34,7 +49,13 @@
       "title": "Education Volunteer",
       "subTitle": "Companhia de Estudo",
       "duration": "3 yrs",
-      "imgPath": "/ce_logo.jpeg"
+      "imgPath": "/ce_logo.jpeg",
+      "description": [
+        "Assisted children in achieving a better understanding of the Scratch high-level programming language developed by MIT",
+        "Motivated students towards learning and studying to build self-confidence and reduce fear of failure",
+        "Conducted group sessions to help students engage in active learning and critical thinking skills",
+        "Created tailored lesson plans and study guides to teach and assist students in different areas of study"
+      ]
     }
   ]
 }

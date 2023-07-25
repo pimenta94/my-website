@@ -17,6 +17,7 @@ const AboutMe = () => {
   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
     currentAge--;
   }
+  const experienceYears = today.getFullYear() - 2017;
 
   return (
     <section className="section-about-me" id="about-me">
@@ -41,14 +42,22 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="description">
-          Solution-driven Frontend Developer eager to contribute to the team's
-          success and to a collaborative work environment, finding solutions and
-          determining customer satisfaction. Proven experience developing web
-          applications using HTML/CSS, TypeScript, React and Angular. Experience
-          building web products for desktop and mobile over 6+ years, meeting
-          the highest standards for web design and user experience. Designed and
-          developed web applications across multiple APIs and third-party
-          integrations
+          I'm a {currentAge} y/o solution-driven Frontend Developer eager to
+          contribute to the team's success and to a collaborative work
+          environment, finding solutions and determining customer satisfaction
+          while meeting the highest standards for web design and user
+          experience. I have experience building web applications for desktop
+          and mobile for more than {experienceYears} years using HTML/CSS,
+          TypeScript, React, Angular across multiple APIs and third-party
+          integrations.
+        </div>
+        <div className="description-2">
+          Outside work I like to keep myself busy. Over the years I have
+          developed a passion for music and especially playing guitar. I also
+          love playing video games, I'm a big fan of From Software games like
+          Dark Souls, Bloodborne and Elden Ring. More recently, I discovered
+          skiing and became addicted to it, this has become my gateway when I
+          need to take a break from my usual routine.
         </div>
       </div>
       <div className="more-button">

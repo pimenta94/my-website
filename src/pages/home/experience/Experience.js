@@ -30,7 +30,6 @@ const Experience = () => {
       {cv.volunteering.map((item) => (
         <ExperienceAccordion key={item.subTitle} data={item} />
       ))}
-      <div className="divider" />
     </section>
   );
 };
